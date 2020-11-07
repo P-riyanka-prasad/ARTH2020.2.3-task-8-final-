@@ -15,7 +15,7 @@ automation_number = input("\t\t\t\tEnter automation number:")
 automation_number = int(automation_number)
 
 if(automation_number==1):
-	print("python aws_automation.py")
+	os.system("python aws_automation.py")
 
 elif(automation_number==2):
 	os.system("python LVM_automation.py")
