@@ -127,7 +127,7 @@ def EBS_volume():
         if(choice==4):
             detach_volume()
         if(choice==5):
-            exit()
+            break
             
 def IAM_user():
     #creating User
@@ -243,7 +243,7 @@ def IAM_user():
         if(choice==13):
             delete_access_key()
         if(choice==14):
-            exit()
+            break
 
 print("\t\t\t\tFirst ,Configure AWS to enter into AWS\n")
 os.system("aws configure")
